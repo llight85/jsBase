@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Less1/2</title>
+    <title>Document</title>
 </head>
 
 <body>
     <script>
-        "use strict";
-        alert ('Exercise2: Объявить две переменные: admin и name. Записать в name строку "Василий". Скопировать значение из name в admin. Вывести в консоль переменную admin (должно вывести "Василий"');
-        let name = prompt ('Введите имя админа');
-        let admin = name;
-        alert ("Админ - " + admin + " выведено в console.log");
-        console.log(admin);
-
+        let a = 2;
+        let x = 1 + (a *= 2);
+        /*Сначала двойка присваивается в "а".
+        Затем в результате работы а *= 2 переменная "а" становится
+        равной 4.
+        Затем 1 + 4 получается 5.
+        Затем 5 присваивается в x.
+        В итоге a = 4, x = 5.*/
     </script>
 </body>
 
