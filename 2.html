@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Less1/2</title>
+    <title>Document</title>
 </head>
-
 <body>
     <script>
         "use strict";
-        alert ('Exercise2: Объявить две переменные: admin и name. Записать в name строку "Василий". Скопировать значение из name в admin. Вывести в консоль переменную admin (должно вывести "Василий"');
-        let name = prompt ('Введите имя админа');
-        let admin = name;
-        alert ("Админ - " + admin + " выведено в console.log");
-        console.log(admin);
-
+        
+        for (let i = 0; i <= 10; i++) {
+            if (i == 0) {
+                console.log(i + " - это ноль");
+            } else if (i % 2 == 0) {
+                console.log(i + " - это четное число");
+            } else {
+                console.log(i + " - это НЕ четное число");
+            }
+        }
     </script>
 </body>
-
 </html>
